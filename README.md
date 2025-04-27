@@ -12,7 +12,7 @@ Because default is boring. This setup makes Sublime feel yours.
 <img width="1689" alt="image" src="https://github.com/user-attachments/assets/039c725b-e33e-4056-acdf-c0c48f296a43" />
 
 
-<h2><a href="https://github.com/swatiprajapati08/SublimeTheme/tree/main/cutePink-theme" target="_blank:">CoolBlueTheme: <a> </h2> <br>
+<h2><a href="https://github.com/swatiprajapati08/SublimeTheme/tree/main/coolBlue" target="_blank:">CoolBlue Theme: <a> </h2> <br>
 <img width="1689" alt="image" src="https://github.com/user-attachments/assets/80b1573f-d051-4833-8fe7-500d5f168f72" />
 <img width="1689" alt="image" src="https://github.com/user-attachments/assets/c1a2a7c8-2506-4dfd-9e38-f4372f1f39a2" />
 
