@@ -5,7 +5,7 @@ A sleek set of custom settings, themes, and plugins to supercharge your Sublime 
 Because default is boring. This setup makes Sublime feel yours.
 
 <h2>
-<a href="https://github.com/swatiprajapati08/SublimeTheme/tree/main/cutePink-theme" target="_blank" style="color:pink; text-decoration:none;">
+<a href="https://github.com/swatiprajapati08/SublimeTheme/tree/main/cutePink-theme" target="_blank">
     Cute Pink-kawaii
   </a>
 </h2><br> <img width="1689" alt="image" src="https://github.com/user-attachments/assets/97c54721-60ee-4474-bed4-9d962476bcf1" />
