@@ -1,0 +1,91 @@
+{
+  "globals": {
+    "background": "#3D365C",  // Light background
+    "foreground": "#726F8A",  // Lightened version of #3D365C
+    "selection": "#7C4585",
+    "selection_border": "#C95792",
+    "caret": "#726F8A",
+    "inactive_selection": "#C95792",
+    "line_highlight": "#7C4585",
+    "find_highlight": "#7C4585",
+    "gutter": "#F8B55F",
+    "gutter_foreground": "#726F8A"
+  },
+  "rules": [
+    {
+      "name": "Comments",
+      "scope": "comment",
+      "foreground": "#C95792"
+    },
+    {
+      "name": "Keywords",
+      "scope": "keyword",
+      "foreground": "#7C4585"
+    },
+    {
+      "name": "Strings",
+      "scope": "string",
+      "foreground": "#7C4585"
+    },
+    {
+      "name": "Variables",
+      "scope": "variable",
+      "foreground": "#726F8A"
+    },
+    {
+      "name": "Types",
+      "scope": "entity.name.type",
+      "foreground": "#7C4585"
+    },
+    {
+      "name": "Function Names",
+      "scope": "entity.name.function",
+      "foreground": "#7C4585"
+    },
+    {
+      "name": "Class Names",
+      "scope": "entity.name.class",
+      "foreground": "#C95792"
+    },
+    {
+      "name": "HTML Tags",
+      "scope": "meta.tag",
+      "foreground": "#C95792"
+    },
+    {
+      "name": "HTML Attributes",
+      "scope": "meta.attribute",
+      "foreground": "#7C4585"
+    },
+    {
+      "name": "JavaScript Keywords",
+      "scope": "source.js keyword",
+      "foreground": "#7C4585"
+    },
+    {
+      "name": "JavaScript Strings",
+      "scope": "source.js string",
+      "foreground": "#726F8A"
+    },
+    {
+      "name": "CSS Properties",
+      "scope": "source.css meta.property-name",
+      "foreground": "#726F8A"
+    },
+    {
+      "name": "Python Keywords",
+      "scope": "source.python keyword",
+      "foreground": "#7C4585"
+    },
+    {
+      "name": "Python Strings",
+      "scope": "source.python string",
+      "foreground": "#726F8A"
+    },
+    {
+      "name": "Python Functions",
+      "scope": "source.python entity.name.function",
+      "foreground": "#7C4585"
+    }
+  ]
+}
