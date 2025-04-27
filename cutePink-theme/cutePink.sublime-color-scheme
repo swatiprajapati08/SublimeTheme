@@ -1,0 +1,96 @@
+{
+  "variables": {
+    "kawaiiBlue": "#49adea",
+    "kawaiiLavender": "#cdb4db",
+    "kawaiiPeach": "#ffd6a5",
+    "kawaiiPink": "#ffb7c5",
+    "kawaiiRed": "#ff6b6b",
+    "kawaiiCommentBlue": "#89c2d9",
+    "kawaiiDarkPink": "#ff69b4",
+    "kawaiiPurple": "#6a4c93"
+  },
+  "globals": {
+    "background": "#fff0f5",
+    "foreground": "var(kawaiiPurple)",
+    "caret": "#ff69b4",
+    "caret_extra_width": "2",
+    "line_highlight": "#ffe4ec",
+    "selection": "#ffd6e7",
+    "selection_border": "#ff69b4",
+    "inactive_selection": "#f8e1e7",
+    "gutter": "#fcdde8",
+    "gutter_foreground": "#dcb6d5"
+  },
+  "rules": [
+    {
+      "scope": "comment",
+      "foreground": "var(kawaiiCommentBlue)",
+      "font_style": "italic"
+    },
+    {
+      "scope": "keyword",
+      "foreground": "var(kawaiiRed)",
+      "font_style": "bold italic"
+    },
+    {
+      "scope": "string",
+      "foreground": "var(kawaiiDarkPink)",
+      "font_style": "italic"
+    },
+    {
+      "scope": "constant.numeric",
+      "foreground": "var(kawaiiRed)",
+      "font_style": "bold"
+    },
+    {
+      "scope": "variable",
+      "foreground": "var(kawaiiBlue)"
+    },
+    {
+      "scope": "variable.parameter",
+      "foreground": "var(kawaiiLavender)",
+      "font_style": "italic"
+    },
+    {
+      "scope": "entity.name.function",
+      "foreground": "var(kawaiiLavender)",
+      "font_style": "bold underline"
+    },
+    {
+      "scope": "entity.name.class",
+      "foreground": "var(kawaiiPink)",
+      "font_style": "bold"
+    },
+    {
+      "scope": "entity.name.tag",
+      "foreground": "var(kawaiiRed)",
+      "font_style": "bold"
+    },
+    {
+      "scope": "entity.other.attribute-name",
+      "foreground": "var(kawaiiBlue)"
+    },
+    {
+      "scope": "support.type.property-name",
+      "foreground": "var(kawaiiLavender)"
+    },
+    {
+      "scope": "support.constant.property-value",
+      "foreground": "var(kawaiiBlue)"
+    },
+    {
+      "scope": "constant.language",
+      "foreground": "var(kawaiiRed)",
+      "font_style": "bold"
+    },
+    {
+      "scope": "keyword.operator",
+      "foreground": "var(kawaiiRed)",
+      "font_style": "bold"
+    },
+    {
+      "scope": "punctuation",
+      "foreground": "#d4a5a5"
+    }
+  ]
+}

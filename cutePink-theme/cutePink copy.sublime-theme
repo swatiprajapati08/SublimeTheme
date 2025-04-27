@@ -1,0 +1,80 @@
+[
+  {
+    "class": "tab_control",
+    "layer0.tint": "#ffd6e7",    // Pink tabs background
+    "layer0.opacity": 1.0,
+    "layer0.draw_center": true,
+    "content_margin": [8, 6],
+    "border_width": [0, 0, 2, 0], // Thin pink border for tabs
+    "border_color": "#ff9aa2"     // Soft pinkish red for border
+  },
+  {
+    "class": "tab_label",
+    "fg": "#403c47",              // Tab text (soft dark)
+    "bg": "#ffd6e7",              // Background
+    "font.bold": true
+  },
+  {
+    "class": "tab_label",
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+    "fg": "#ff69b4",             // Active tab text: hot pink
+    "bg": "#fff0f5",             // Active tab background: lightest pink
+    "font.bold": true
+  },
+  {
+    "class": "sidebar_container",
+    "layer0.tint": "#fff0f5",     // Sidebar background
+    "layer0.opacity": 1.0
+  },
+  {
+    "class": "sidebar_heading",
+    "color": "#ff69b4",           // Heading text hot pink
+    "font.bold": true
+  },
+  {
+    "class": "sidebar_label",
+    "color": "#403c47",           // Sidebar normal text
+    "font.bold": false
+  },
+  {
+    "class": "sidebar_label",
+    "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+    "color": "#ff69b4",           // Selected file name
+    "bg": "#ffd6e7",              // Selected background
+    "font.bold": true
+  },
+  {
+    "class": "sidebar_label",
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    "color": "#ff69b4",           // Hover text
+    "bg": "#ffe4e9"               // Hover background
+  },
+  {
+    "class": "tree_row",
+    "layer0.tint": "#fff0f5",
+    "layer0.opacity": 1.0
+  },
+  {
+    "class": "panel_control",
+    "layer0.tint": "#fff0f5",    // Find/replace bar background
+    "layer0.opacity": 1.0
+  },
+  {
+    "class": "panel_label",
+    "color": "#403c47"           // Text inside panels
+  },
+  {
+    "class": "folder_icon",
+    "layer0.tint": "#fff0f5",    // Folder icon in light pink
+    "layer0.opacity": 1.0,
+    "layer1.tint": "Packages/User/Icons/bow.jpg",    // Cute pink bow on the folder
+    "layer1.opacity": 1.0,
+    "layer1.draw_center": true
+  },
+  {
+    "file_icons": {
+      "html": "Packages/User/Icons/heart.jpg",  // Heart icon for HTML files
+      "java": "Packages/User/Icons/bow.jpg"    // Bow icon for Java files
+    }
+  }
+]

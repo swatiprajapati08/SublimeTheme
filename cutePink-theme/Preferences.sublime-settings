@@ -1,0 +1,17 @@
+{
+	"color_scheme": "cutePink.sublime-color-scheme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"theme": "cutePink.sublime-theme",
+	"index_files": true,
+	  "font_face": "Comic Sans MS",
+	  "font_size": 13,
+	  "caret_style": "solid",
+	  "caret_extra_width": 2,
+	  "line_padding_top": 3,
+	  "line_padding_bottom": 3,
+	  "highlight_line": true,
+	  "draw_minimap_border": true,
+}
